@@ -8,12 +8,12 @@ const app = express()
 
 
 app.get('/carsales', function(req,res,next){
-    return res.json("hellooooo")
+    return res.json("hello")
 })
 
-app.use((req,res,next)=>{
-    if(req.params['product'].indexof('mecca')>0){
-        res.send(error)
+app.use('/mecca/:product',(req,res,next)=>{
+    if(req.params['product']==='mecca'){
+        res.send('error')
     }
     next()
 })
