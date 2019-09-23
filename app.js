@@ -8,7 +8,7 @@ const app = express()
 
 
 app.get('/carsales', function(req,res,next){
-    return res.json("hello")
+    return res.json("helloo")
 })
 
 app.use('/mecca/:product',(req,res,next)=>{
