@@ -43,5 +43,5 @@ app.listen(5666, function(){
 
 // }).listen(5666);
 
-// logModule.logMessage('application is running on 5666...')
+// logModule.logMessage('dev server is running on 5666...')
 
