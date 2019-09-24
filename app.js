@@ -8,7 +8,7 @@ const app = express()
 
 
 app.get('/carsales', function(req,res,next){
-    return res.json("hello")
+    return res.json("helloo")
 })
 
 app.use('/mecca/:product',(req,res,next)=>{
@@ -43,5 +43,5 @@ app.listen(5666, function(){
 
 // }).listen(5666);
 
-// logModule.logMessage('dev server is running on 5666...')
+// logModule.logMessage('server is running on 5666... asfasdf')
 
